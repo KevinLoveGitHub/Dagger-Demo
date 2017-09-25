@@ -8,6 +8,7 @@ import javax.inject.Inject;
 import dagger.android.AndroidInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasActivityInjector;
+import love.org.daggerdemo.di.DaggerAppComponent;
 
 /**
  * @author Kevin
@@ -19,7 +20,11 @@ public class App extends Application implements HasActivityInjector {
     @Override
     public void onCreate() {
         super.onCreate();
-        DaggerAppComponent.builder().application(this).build().inject(this);
+        DaggerAppComponent
+                .builder()
+                .application(this)
+                .build()
+                .inject(this);
     }
 
     @Override

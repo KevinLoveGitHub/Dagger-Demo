@@ -1,4 +1,4 @@
-package love.org.daggerdemo;
+package love.org.daggerdemo.di;
 
 import android.app.Application;
 import android.content.Context;

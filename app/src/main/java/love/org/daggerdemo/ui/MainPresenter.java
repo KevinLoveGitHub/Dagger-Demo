@@ -1,4 +1,4 @@
-package love.org.daggerdemo;
+package love.org.daggerdemo.ui;
 
 /**
  * Created by Pao on 23/9/17.

@@ -1,4 +1,4 @@
-package love.org.daggerdemo;
+package love.org.daggerdemo.ui;
 
 import dagger.Module;
 import dagger.Provides;

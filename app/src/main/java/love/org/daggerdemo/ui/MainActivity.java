@@ -1,4 +1,4 @@
-package love.org.daggerdemo;
+package love.org.daggerdemo.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.util.Log;
 import javax.inject.Inject;
 
 import dagger.android.AndroidInjection;
+import love.org.daggerdemo.R;
+import love.org.daggerdemo.di.Cache;
 
 public class MainActivity extends Activity implements MainView {
 

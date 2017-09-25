@@ -1,4 +1,4 @@
-package love.org.daggerdemo;
+package love.org.daggerdemo.di;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
